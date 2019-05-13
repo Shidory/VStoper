@@ -4,3 +4,4 @@ import psutil as ps
 import pautogui as pag
 
 h_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+hfd_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
