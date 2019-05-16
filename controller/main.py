@@ -2,9 +2,11 @@ import numpy as np
 import cv2 as cv
 import psutil as ps
 import pyautogui as pag
+import sys
 
 def stoper():
-    eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
+    print("réussi")
+    """eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
     face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
     previous_eyes = current_eyes = "0"
     state = False
@@ -53,4 +55,6 @@ def stoper():
                     cv.destroyAllWindows()
                     break
             except:
-                pass
+                pass"""
+
+stoper()
