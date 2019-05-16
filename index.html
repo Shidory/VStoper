@@ -5,14 +5,29 @@
     <title>VStopper</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <style>
-          .btn{
-            position: 50%;
+          h1{
+            text-align: center;
           }
     </style>
   </head>
   <body>
-    <h1>VStopper</h1>
-    <input class="btn btn-success" placeholder="STAR" onclick="" >
+    <!-->h1>VStopper</h1-->
+    <div class="btn-group btn-group-lg" role="group" aria-label="...">
+      <button type="button" class="btn btn-danger btn-lg">Stop</button>
+    </div>
+    <div class="btn-group btn-group-lg" role="group" aria-label="...">
+      <button type="button" class="btn btn-danger btn-lg">Stop</button>
+    </div>
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-success btn-block">Star</button>
+    </div>
+
+    <div class="jumbotron-fluid">
+      <h1 class="display-4">VStopper</h1>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Stop</a>
+    </div>
     <script>
       require('./renderer.js')
     </script>
